@@ -48,8 +48,8 @@ Optional arguments:
   -h, --help     shows help message and exits
   -v, --version  prints version information and exits
   -c, --coeffs   number of coefficients. 2 for binary, 3 for ternary [nargs=0..1] [default: 2]
-  -s, --seed     optional seed [nargs=0..1] [default: 1]
-  -r, --ring     use 1 for modulus x^n - 1 or 2 for x^n + 1 [nargs=0..1] [default: 1]
+  -s, --seed     optionally fix seed. If seed is -1 then use a random seed. [nargs=0..1] [default: -1]
+  -r, --ring     use 1 for NTRU: x^n - 1, 2 for NTRU2: x^n + 1, 3 for NTRUPrime: x^n - x - 1 or 4 for NTTRU: x^n - x^(n/2) + 1. [nargs=0..1] [default: 1]
   --verbose      increase output verbosity
 
 Subcommands:
