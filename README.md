@@ -2,6 +2,8 @@
 
 A C++ implementation of the Arora-Ge algorithm for breaking NTRU with multiple keys.
 
+There is also a SageMath implementation in the `sagemath` directory.
+
 This software was developed to supplement the article
 "An algebraic algorithm for breaking NTRU with multiple keys" by
 Shi Bai, Hansraj Jangir, Tran Ngo, and William Youmans.
