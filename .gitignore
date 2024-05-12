@@ -31,6 +31,9 @@
 *.out
 *.app
 
+# Sage
+*.sage.py
+
 # Misc
 build
 _data
